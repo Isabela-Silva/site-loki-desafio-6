@@ -1,0 +1,108 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-image: url(/images/fundo.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+h2,
+h1,
+p {
+  color: #fff;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+header h1 {
+  font-family: b612;
+  font-weight: 700;
+  font-size: 96px;
+  margin: 0;
+}
+header h2 {
+  font-family: b612;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .container {
+  width: 900px;
+  height: 300px;
+}
+main .container .content {
+  margin-left: 70px;
+}
+main .container .content p {
+  font-family: b612;
+  font-weight: 400;
+  font-size: 20px;
+}
+main .container .content .section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .container .content .section .time {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+main .container .content .section .time img {
+  max-width: 30%;
+}
+main .container .content .section .star {
+  display: flex;
+  gap: 15px;
+}
+main .container .content .section h2 {
+  font-family: b612;
+  font-weight: 700;
+  font-size: 24px;
+}
+main .container .content .button {
+  margin-top: 44px;
+}
+main .container .content .button .btnOne {
+  background: #0072d2;
+  margin: none;
+  margin-right: 21px;
+  width: 184px;
+  height: 52px;
+  border-color: #fcf6f6;
+  border-radius: 5px;
+}
+main .container .content .button .btnOne a {
+  text-decoration: none;
+  color: #fff;
+}
+main .container .content .button .btnTwo {
+  background: #131318;
+  margin: none;
+  width: 115px;
+  height: 52px;
+  border-color: #fff;
+  border-radius: 5px;
+}
+main .container .content .button .btnTwo a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/*# sourceMappingURL=main.css.map */
