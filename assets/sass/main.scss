@@ -1,0 +1,115 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background-image: url(/images/fundo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+}
+h2,
+h1,
+p {
+    color: #fff;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+
+    h1 {
+        font-family: b612;
+        font-weight: 700;
+        font-size: 96px;
+        margin: 0;
+
+    }
+    h2 {
+        font-family: b612;
+        font-weight: 700;
+        font-size: 20px;
+    }
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .container {
+        width: 900px;
+        height: 300px;
+            .content {
+                margin-left: 70px;
+                p {
+                    font-family: b612;
+                    font-weight: 400;
+                    font-size: 20px;
+                }
+                
+                .section {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                
+                    .time {
+                        display: flex;
+                        align-items: center;
+                        gap: 11px;
+                        img {
+                            max-width: 30%;
+                        }
+                    
+                    }
+                    .star {
+                        display: flex;
+                        gap: 15px;
+                    }
+                    h2 {
+                        font-family: b612;
+                        font-weight: 700;
+                        font-size: 24px;
+                    }
+            
+                }
+                .button {
+                    margin-top: 44px;
+                    .btnOne {
+                        background: #0072d2;
+                        margin: none;
+                        margin-right: 21px;
+                        width: 184px;
+                        height: 52px;
+                        border-color: rgb(252, 246, 246);
+                        border-radius: 5px;
+                        a {
+                            text-decoration: none;
+                            color: #fff;
+                        
+                        } 
+
+                    }
+                    .btnTwo {
+                        background: #131318;
+                        margin: none;
+                        width: 115px;
+                        height: 52px;
+                        border-color: #fff;
+                        border-radius: 5px;
+                        a {
+                            text-decoration: none;
+                            color: #fff;
+                        
+                        } 
+
+                    }
+                }
+
+        }
+    }
+}
